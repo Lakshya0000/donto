@@ -12,7 +12,6 @@ const Doctors = (props) => {
         AOS.init({
                 duration: 2000,
             });
-        AOS.refresh();
       }, []);
     return (
         <Col md={6} lg={6} xl={4} xs={12}>

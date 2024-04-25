@@ -11,7 +11,6 @@ const Testimonial = () => {
         AOS.init({
                 duration: 2000,
             });
-        AOS.refresh();
       }, []);
     return (
         <section className="testimonial-wrapper">
@@ -29,8 +28,8 @@ const Testimonial = () => {
                             <div className="client-img">
                                 <img src={client} alt="" />
                             </div>
-                            <h3 className="mt-4">Aliceano Colby</h3>
-                            <span>CEO of Prime IT</span>
+                            <h3 className="mt-4">Lakshya Agarwal</h3>
+                            <span>Student of IIIT Lucknow</span>
                         </div>
                     </Col>
                     <Col md={6} lg={8} sm={12}>

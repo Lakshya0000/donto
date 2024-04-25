@@ -1,4 +1,7 @@
-/* for mobile responsive */
+.ginger{
+    height: 50%;
+    width: 50%;
+}
 @media only screen and (max-width: 426px){
     .healing {
         padding: 0 !important;

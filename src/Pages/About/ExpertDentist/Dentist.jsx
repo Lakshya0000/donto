@@ -13,9 +13,9 @@ const Dentist = () => {
                     </Col>
                     <Col lg={6}>
                         <div className="expertDentist-txt mt-5 mt-lg-0">
-                            <h2>Experienced Dentist</h2>
-                            <p>Smiling comes naturally to Dr. Harrie, author of ‘Donto’. He has embraced Cosmetic Dentistry and has redesigned the smiles for thev thousands of patients.</p>
-                            <p>Dr. Harrie believes in providing her patients with more than just world class dental care. He also helps patients recognize the vital connection between dental health and whole body health. A graduate of the University of California’s School of Dentistry, Dr. Harrie is a leader in the movement to bring environmental sanity and well-being into the dental world for future.</p>
+                            <h2>Experienced Doctors</h2>
+                            <p>We are gonna provide doctors with valid government issued certificates and high qualified doctors to treat you. </p>
+                            <p>We belive each and everyone of us has equal right to get treated by good doctors.Except in some extreme medical emergency we guarantee you that our provided digital treatment will gonna help you.</p>
                         </div>
                     </Col>
                 </Row>

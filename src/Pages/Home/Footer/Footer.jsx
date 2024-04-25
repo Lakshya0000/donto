@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, NavLink, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Footer.css'
 
 const Footer = () => {
@@ -13,11 +14,10 @@ const Footer = () => {
                                 <h2>Practices</h2>
                             </div>
                             <div className="widget-content">
-                                <NavLink className="footer-link">For Patients</NavLink>
-                                <NavLink className="footer-link">FAQ's</NavLink>
-                                <NavLink className="footer-link">About</NavLink>
-                                <NavLink className="footer-link">Contact Us</NavLink>
-                                <NavLink className="footer-link">Blog</NavLink>
+                                <NavLink className="footer-link" href='/not'>FAQ's</NavLink>
+                                <NavLink className="footer-link" href='/not'>About</NavLink>
+                                <NavLink className="footer-link" href='/not'>Contact Us</NavLink>
+                                <NavLink className="footer-link" href='/not'>Blog</NavLink>
                             </div>
                         </div>
                     </Col>
@@ -27,11 +27,10 @@ const Footer = () => {
                                 <h2>Resources</h2>
                             </div>
                             <div className="widget-content">
-                                <NavLink className="footer-link">New Patients</NavLink>
-                                <NavLink className="footer-link">Meet the Team</NavLink>
-                                <NavLink className="footer-link">Patient Form</NavLink>
-                                <NavLink className="footer-link">Insurance</NavLink>
-                                <NavLink className="footer-link">Account Login</NavLink>
+                                <NavLink className="footer-link" href='/contact'>Contact</NavLink>
+                                <NavLink className="footer-link" href='/not'>Meet the Team</NavLink>
+                                <NavLink className="footer-link" href='/not'>Patient Form</NavLink>
+                                <NavLink className="footer-link" href='/login'>Account Login</NavLink>
                             </div>
                         </div>
                     </Col>
@@ -41,11 +40,10 @@ const Footer = () => {
                                 <h2>Services</h2>
                             </div>
                             <div className="widget-content">
-                                <NavLink className="footer-link">Dental Dictionary</NavLink>
-                                <NavLink className="footer-link">Dental Sealands</NavLink>
-                                <NavLink className="footer-link">Dental Implants</NavLink>
-                                <NavLink className="footer-link">General Dentistry</NavLink>
-                                <NavLink className="footer-link">Sedation Dentistry</NavLink>
+                                <NavLink className="footer-link" href='/not'>Physician</NavLink>
+                                <NavLink className="footer-link" href='/not'>Oral Surgeon</NavLink>
+                                <NavLink className="footer-link" href='/not'>Skin Treatment</NavLink>
+                                <NavLink className="footer-link" href='/not'>Neurologist</NavLink>
                             </div>
                         </div>
                     </Col>
@@ -55,11 +53,10 @@ const Footer = () => {
                                 <h2>Our Address</h2>
                             </div>
                             <div className="widget-content">
-                                <NavLink className="footer-link">Datobbo Dentistry 5212 Cedar</NavLink>
-                                <NavLink className="footer-link">Village Dr Mason, NY.</NavLink>
-                                <NavLink className="footer-link">Phone:+1 3500 5867 340</NavLink>
-                                <NavLink className="footer-link">Email:yourdomain@gmail.com</NavLink>
-                                <NavLink className="footer-link">Fax:+1 675 5867 340</NavLink>
+                                <ul>
+                                <li>IIIT Lucknow, C.G. City, Lucknow, UP</li><br />
+                                <li>Phone : +91-9999999999</li><br />
+                                <li>Email : student.iiitl@gmail.com</li><br /></ul>
                             </div>
                         </div>
                     </Col>

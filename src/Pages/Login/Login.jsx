@@ -1,7 +1,6 @@
 import { faFacebook, faGithub, faGoogle, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useState } from 'react';
-import { useNavigate } from "react-router-dom";
+import React from 'react';
 import './Login.css';
 
 
@@ -18,7 +17,7 @@ const Login = () => {
                                         <div className="card-body p-md-5 mx-md-4">
                                             <div className="text-center">
                                                 <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp" className="card-img" alt="logo" />
-                                                <h4 className="mt-1 mb-5 pb-1">We are The Lotus Team</h4>
+                                                <h4 className="mt-1 mb-5 pb-1">We are The Tech Titans Team</h4>
                                             </div>
                                             <p className="d-flex justify-content-start">Please login to your account</p>
                                             <form>

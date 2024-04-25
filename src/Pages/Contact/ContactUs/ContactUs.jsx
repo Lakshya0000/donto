@@ -16,8 +16,8 @@ const ContactUs = () => {
                             </div>
                             <div className="c-info text-start">
                                 <h4>Address</h4>
-                                <p>55 West, 33rd Street</p>
-                                <p>5th Floor, New York</p>
+                                <p>IIIT Lucknow, C.G. City</p>
+                                <p>Lucknow, UP</p>
                             </div>
                         </div>
                     </Col>
@@ -28,8 +28,8 @@ const ContactUs = () => {
                             </div>
                             <div className="c-info text-start">
                                 <h4>Email</h4>
-                                <p>info@dentzone.com</p>
-                                <p>email@gmail.com</p>
+                                <p>student1@iiitl.ac.in</p>
+                                <p>student2@iiitl.ac.in</p>
                             </div>
                         </div>
                     </Col>
@@ -40,8 +40,8 @@ const ContactUs = () => {
                             </div>
                             <div className="c-info text-start">
                                 <h4>Phone</h4>
-                                <p>(888) 4421-1238-32</p>
-                                <p>(888) 838-1238-645</p>
+                                <p>(+91) 9999999999</p>
+                                <p>(+91) 8888888888</p>
                             </div>
                         </div>
                     </Col>

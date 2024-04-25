@@ -22,7 +22,7 @@
 }
 
 .client-img::before {
-    background-color: #fc5185;
+    background-color: #0d0676;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -34,6 +34,8 @@
 }
 
 .client-img img {
+    height: 100%;
+    width: 100%;
     position: absolute;
     text-align: center;
     left: 50%;
