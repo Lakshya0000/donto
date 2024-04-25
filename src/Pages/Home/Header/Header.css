@@ -66,11 +66,7 @@
   }
 
 
-
-  /* for mobile responsive */
-
 @media (max-width: 992px) {
-    /* 2: Navbar */
     .btn {
         margin-left: 57px;
         margin-right: 15px;

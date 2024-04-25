@@ -29,7 +29,7 @@ const About = () => {
                             <div className="about-content text-start" data-aos="zoom-in">
                                 <h1>Welcome to a Family</h1>
                                 <p>Welcome to Datobbo Dental represents everything going to dentist necessary. We have upgraded your dreaded dentist appointment and transformed it into a relaxing. Consectetur adipisicing elit. Quod ea, consequuntur itaque enim et expedita, optio omnis ipsa magni, perspiciatis totam ipsum! Voluptatibus, neque at.</p>
-                                <a href='/page/about'>About Us</a>
+                                <a href='/about'>About Us</a>
                             </div>
                             <div className="fun-fact-sec" data-aos="fade-right">
                                 <div className="single-fun">
